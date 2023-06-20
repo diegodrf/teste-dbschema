@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="Teste01" id="Project-1c2b" database="SqlServer" >
+	<schema name="dbo" catalogname="Teste01" >
+		<table name="TBInicial" prior="TB" >
+			<column name="Id" type="int" jt="4" mandatory="y" />
+			<column name="Nome" type="varchar(max)" jt="12" />
+			<index name="pk_TBInicial" unique="PRIMARY_KEY" >
+				<column name="Id" />
+			</index>
+		</table>
+	</schema>
+	<layout name="Default Layout" id="Layout-156b" show_relation="columns" >
+		<entity schema="Teste01.dbo" name="TBInicial" color="C1D8EE" x="464" y="336" />
+		<callout x="48" y="48" pointer="Round" >
+			<comment><![CDATA[This is a layout - a diagram with tools.
+- Right-click the layout to create new tables. 
+- Double-click table headers to edit. 
+- For a better understanding of the schema, create multiple layouts.
+- Save the design to the model file, and deploy from 'Schema / Create into the database'.]]></comment>
+		</callout>
+	</layout>
+</project>
